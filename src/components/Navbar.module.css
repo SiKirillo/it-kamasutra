@@ -1,0 +1,8 @@
+.appNav {
+    grid-area: appNav;
+    background-color: royalblue;
+}
+
+.item {
+    color: white;
+}
