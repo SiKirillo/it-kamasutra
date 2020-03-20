@@ -1,8 +1,0 @@
-.appHeader {
-    grid-area: appHeader;
-    background-color: royalblue;
-}
-
-.appHeader img {
-    width: 60px;
-}
