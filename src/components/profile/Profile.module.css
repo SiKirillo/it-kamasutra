@@ -1,3 +1,7 @@
 .backgroundPhoto {
-    height: 300px;
+}
+
+.backgroundPhoto img {
+    position: relative;
+    width: 100%;
 }

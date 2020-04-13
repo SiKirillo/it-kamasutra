@@ -3,11 +3,13 @@ import style from './Posts.module.css';
 import PostItem from './postItem/PostItem';
 
 class Posts extends React.Component {
+
+
     render = () => {
-        let postElements = this.props.myPosts.map(post => <PostItem title={post.title}
-                                                                    text={post.text}
-                                                                    avatar={post.avatar}
-                                                                    likes={post.likes}/>);
+        let postElements = this.props.posts.map(post => <PostItem title={post.title}
+                                                                  text={post.text}
+                                                                  avatar={post.avatar}
+                                                                  likes={post.likes}/>);
         return (
             <div className={style.posts}>
                 <h4>My posts</h4>
