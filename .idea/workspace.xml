@@ -5,15 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PortfolioLayout/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -97,6 +94,10 @@
       <workItem from="1586459095192" duration="581000" />
       <workItem from="1586513348860" duration="4848000" />
       <workItem from="1586801361132" duration="4291000" />
+      <workItem from="1587147493815" duration="600000" />
+      <workItem from="1587384923463" duration="7637000" />
+      <workItem from="1587465027660" duration="8000" />
+      <workItem from="1587485590019" duration="9000" />
     </task>
     <servers />
   </component>
@@ -155,9 +156,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586518656487" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1586513858709">
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587394934870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586513858709" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587394934870" />
   </component>
 </project>

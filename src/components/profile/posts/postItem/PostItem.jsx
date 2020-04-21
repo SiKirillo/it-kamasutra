@@ -19,7 +19,7 @@ class PostItem extends React.Component {
                     </div>
                     <div>
                         <span>
-                            likes: {this.props.likes}
+                            likes: {this.props.likesCount}
                         </span>
                     </div>
                 </div>

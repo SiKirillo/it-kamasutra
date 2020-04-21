@@ -7,10 +7,19 @@ class Dialogs extends React.Component {
 
 
     render = () => {
-        let dialogElements = this.props.dialogState.dialogs.map(dialog => <DialogItem name={dialog.name}
-                                                                                      id={dialog.id}/>);
+        let dialogElements = this.props.dialogState.dialogs.map(dialog => <DialogItem id={dialog.id}
+                                                                                      name={dialog.name}
+        />);
 
-        let messageElements = this.props.dialogState.messages.map(message => <MessageItem text={message.text}/>);
+        let messageElements = this.props.dialogState.messages.map(message => <MessageItem message={message.textMessage}/>);
+
+        let newMessageElement = React.createRef();
+
+        let addMessage = () => {
+            let newMessage = newMessageElement.current.value;
+            alert(newMessage);
+            newMessageElement.current.value = "";
+        };
 
         return (
             <div className={style.dialogs}>
@@ -19,6 +28,10 @@ class Dialogs extends React.Component {
                 </div>
                 <div className={style.messageItems}>
                     {messageElements}
+                    <div>
+                        <input ref={newMessageElement}/>
+                        <button onClick={addMessage}>Send message</button>
+                    </div>
                 </div>
             </div>
         );

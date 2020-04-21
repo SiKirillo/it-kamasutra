@@ -5,7 +5,7 @@ class MessageItem extends React.Component {
     render = () => {
         return (
             <div>
-                {this.props.text}
+                {this.props.message}
             </div>
         );
     }
