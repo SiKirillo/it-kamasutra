@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Dialogs.module.css';
 import DialogItem from "./dialogItem/DialogItem";
 import MessageItem from "./messageItem/MessageItem";
+import {addMessageActionCreator, updateNewMessageActionCreator} from "../../redux/reducers/dialogReducer";
 
 class Dialogs extends React.Component {
 
@@ -11,14 +12,18 @@ class Dialogs extends React.Component {
                                                                                       name={dialog.name}
         />);
 
-        let messageElements = this.props.dialogState.messages.map(message => <MessageItem message={message.textMessage}/>);
+        let messageElements = this.props.dialogState.messages.map(message => <MessageItem
+            message={message.textMessage}/>);
 
-        let newMessageElement = React.createRef();
+        let newMessageElement = this.props.dialogState.newMessageText;
 
         let addMessage = () => {
-            let newMessage = newMessageElement.current.value;
-            alert(newMessage);
-            newMessageElement.current.value = "";
+            this.props.dispatch(addMessageActionCreator(newMessageElement));
+        };
+
+        let onMessageChange = (e) => {
+            let messageText = e.target.value;
+            this.props.dispatch(updateNewMessageActionCreator(messageText));
         };
 
         return (
@@ -29,7 +34,9 @@ class Dialogs extends React.Component {
                 <div className={style.messageItems}>
                     {messageElements}
                     <div>
-                        <input ref={newMessageElement}/>
+                        <input onChange={onMessageChange}
+                               value={this.props.dialogState.newMessageText}
+                               placeholder="New message"/>
                         <button onClick={addMessage}>Send message</button>
                     </div>
                 </div>

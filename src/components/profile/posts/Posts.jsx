@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Posts.module.css';
 import PostItem from './postItem/PostItem';
+import {addPostActionCreator, updateNewPostActionCreator} from "../../../redux/reducers/profileReducer";
 
 class Posts extends React.Component {
 
@@ -12,23 +13,24 @@ class Posts extends React.Component {
                                                                   avatar={post.avatar}
                                                                   likesCount={post.likesCount}/>);
 
-        let newPostElement = React.createRef();
+        let newPostElement = this.props.newPostText;
 
         let addPost = () => {
-            let newPost = newPostElement.current.value;
-            this.props.addPost(newPost);
+            this.props.dispatch(addPostActionCreator(newPostElement));
         };
 
-        let onPostChange = () => {
-            let text = newPostElement.current.value;
-            this.props.updateNewPostText(text);
+        let onPostChange = (e) => {
+            let postText = e.target.value;
+            this.props.dispatch(updateNewPostActionCreator(postText));
         };
 
         return (
             <div className={style.posts}>
                 <h4>My posts</h4>
                 <div>
-                    <input onChange={onPostChange} ref={newPostElement} value={this.props.newPostText}/>
+                    <input onChange={onPostChange}
+                           value={this.props.newPostText}
+                           placeholder="New post"/>
                     <button onClick={addPost}>Add post
                     </button>
                 </div>

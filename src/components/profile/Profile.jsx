@@ -14,8 +14,7 @@ class Profile extends React.Component {
                 <ProfileInfo/>
                 <Posts posts={this.props.profileState.posts}
                        newPostText={this.props.profileState.newPostText}
-                       addPost={this.props.addPost}
-                       updateNewPostText={this.props.updateNewPostText}/>
+                       dispatch={this.props.dispatch}/>
             </div>
         );
     }

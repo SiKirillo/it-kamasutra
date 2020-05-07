@@ -5,12 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +97,11 @@
       <workItem from="1587384923463" duration="7637000" />
       <workItem from="1587465027660" duration="8000" />
       <workItem from="1587485590019" duration="9000" />
+      <workItem from="1587988617914" duration="6749000" />
+      <workItem from="1588173005154" duration="10000" />
+      <workItem from="1588597020065" duration="6905000" />
+      <workItem from="1588686275813" duration="8590000" />
+      <workItem from="1588879607763" duration="345000" />
     </task>
     <servers />
   </component>
@@ -128,18 +132,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="182" key="#ESLint" timestamp="1583688727518">
+    <state x="1032" y="182" key="#ESLint" timestamp="1588698144034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="182" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1583688727518" />
+    <state x="1032" y="182" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1588698144034" />
     <state x="1190" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584717597146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1190" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584717597146" />
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586514110275">
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587990326963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586514110275" />
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587990326963" />
     <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586513537975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,10 +156,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583691603094" />
-    <state x="1096" y="244" key="run.anything.popup" timestamp="1586518656487">
+    <state x="1086" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588604714651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586518656487" />
+    <state x="1086" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588604714651" />
+    <state x="1136" y="121" width="607" height="804" key="find.popup" timestamp="1588604720750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="121" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588604720750" />
+    <state x="1096" y="244" key="run.anything.popup" timestamp="1588696790805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588696790805" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587394934870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
