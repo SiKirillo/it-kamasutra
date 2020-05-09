@@ -3,7 +3,29 @@ const PROFILE_CONST = {
     UPDATE_NEW_POST_TEXT: "UPDATE-NEW-POST-TEXT"
 };
 
-const profileReducer = (state, action) => {
+let initialState = {
+    profilePage: {
+        posts: [
+            {
+                id: 1,
+                title: "PostItem #1",
+                text: "Hello!",
+                avatar: "https://avatars1.githubusercontent.com/u/27897079?s=460&v=4",
+                likesCount: 2
+            },
+            {
+                id: 2,
+                title: "PostItem #2",
+                text: "Goodbye!",
+                avatar: "https://avatars1.githubusercontent.com/u/27897079?s=460&v=4",
+                likesCount: 5
+            }
+        ],
+        newPostText: "it-kamasutra"
+    }
+};
+
+const profileReducer = (state = initialState, action) => {
     switch (action.type) {
         case PROFILE_CONST.ADD_POST: {
             if (action.newPost !== "") {

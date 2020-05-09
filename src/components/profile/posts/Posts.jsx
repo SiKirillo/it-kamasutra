@@ -4,9 +4,8 @@ import PostItem from './postItem/PostItem';
 import {addPostActionCreator, updateNewPostActionCreator} from "../../../redux/reducers/profileReducer";
 
 class Posts extends React.Component {
-
-
     render = () => {
+        debugger
         let postElements = this.props.posts.map(post => <PostItem id={post.id}
                                                                   title={post.title}
                                                                   text={post.text}
