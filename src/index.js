@@ -6,7 +6,7 @@ import App from "./App";
 import React from "react";
 import "./index.css";
 
-export let rerenderEntireTree = () => {
+export let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <BrowserRouter>
             <App state={store.getState()}

@@ -26,10 +26,11 @@ let initialState = {
 };
 
 const profileReducer = (state = initialState, action) => {
+    debugger;
     switch (action.type) {
         case PROFILE_CONST.ADD_POST: {
             if (action.newPost !== "") {
-                let newPostId = state.posts.length + 1;
+                let newPostId = state.profilePage.posts.length + 1;
                 let newPost = {
                     id: newPostId,
                     title: "PostItem #" + newPostId,
@@ -37,13 +38,13 @@ const profileReducer = (state = initialState, action) => {
                     avatar: "https://avatars1.githubusercontent.com/u/27897079?s=460&v=4",
                     likesCount: 0
                 };
-                state.posts.push(newPost);
+                state.profilePage.posts.push(newPost);
             }
-            state.newPostText = "";
+            state.profilePage.newPostText = "";
             break;
         }
         case PROFILE_CONST.UPDATE_NEW_POST_TEXT: {
-            state.newPostText = action.newPostText;
+            state.profilePage.newPostText = action.newPostText;
             break;
         }
         default:

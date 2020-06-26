@@ -12,8 +12,8 @@ class Profile extends React.Component {
                          src="https://i1.wallbox.ru/wallpapers/main/201126/aaeb4e384deb3c7913a8a4dbb355ff99.jpg"/>
                 </div>
                 <ProfileInfo/>
-                <Posts posts={this.props.profileState.posts}
-                       newPostText={this.props.profileState.newPostText}
+                <Posts posts={this.props.profileState.profilePage.posts}
+                       newPostText={this.props.profileState.profilePage.newPostText}
                        dispatch={this.props.dispatch}/>
             </div>
         );

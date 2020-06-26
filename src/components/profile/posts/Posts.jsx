@@ -5,7 +5,6 @@ import {addPostActionCreator, updateNewPostActionCreator} from "../../../redux/r
 
 class Posts extends React.Component {
     render = () => {
-        debugger
         let postElements = this.props.posts.map(post => <PostItem id={post.id}
                                                                   title={post.title}
                                                                   text={post.text}
