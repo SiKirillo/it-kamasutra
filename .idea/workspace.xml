@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7495b0dc-ecc7-4521-b268-c1919fe605cb" name="Default Changelist" comment="">
+    <list default="true" id="39626cbf-67a5-43b2-8b1f-34c99cb02337" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/samar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/it-kamasutra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/it-kamasutra.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dialogReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/dialogReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/music/Music.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/music/Music.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/News.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/news/News.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profileInfo/ProfileInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profileInfo/ProfileInfo.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/settings/Settings.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/settings/Settings.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dialogReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profileReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,163 +60,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/SiKirillo/it-kamasutra.git" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1YlQiNzeD2RJy4byNzttqmFa9sY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProjectId" id="1fa7h6F7SMYWN7FdFYUYEfWEAQY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\it-kamasutra\src\components\profile" />
-      <recent name="D:\GitHub\it-kamasutra\src\components" />
-      <recent name="D:\GitHub\it-kamasutra\src\profile" />
-      <recent name="D:\GitHub\it-kamasutra\src\navbar" />
-      <recent name="D:\GitHub\it-kamasutra\src\Header" />
-    </key>
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\GitHub\it-kamasutra\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7495b0dc-ecc7-4521-b268-c1919fe605cb" name="Default Changelist" comment="" />
-      <created>1583514827982</created>
+      <changelist id="39626cbf-67a5-43b2-8b1f-34c99cb02337" name="Default Changelist" comment="" />
+      <created>1596444465879</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583514827982</updated>
-      <workItem from="1583514829600" duration="5299000" />
-      <workItem from="1583585981219" duration="1554000" />
-      <workItem from="1583594526094" duration="13000" />
-      <workItem from="1583686491604" duration="8138000" />
-      <workItem from="1583767518322" duration="38000" />
-      <workItem from="1584299992736" duration="5590000" />
-      <workItem from="1584364986657" duration="245000" />
-      <workItem from="1584445251554" duration="7468000" />
-      <workItem from="1584712819006" duration="7271000" />
-      <workItem from="1584792572577" duration="7000" />
-      <workItem from="1585674870398" duration="9000" />
-      <workItem from="1585825537838" duration="1788000" />
-      <workItem from="1586003021093" duration="1798000" />
-      <workItem from="1586271741810" duration="690000" />
-      <workItem from="1586349424836" duration="604000" />
-      <workItem from="1586459095192" duration="581000" />
-      <workItem from="1586513348860" duration="4848000" />
-      <workItem from="1586801361132" duration="4291000" />
-      <workItem from="1587147493815" duration="600000" />
-      <workItem from="1587384923463" duration="7637000" />
-      <workItem from="1587465027660" duration="8000" />
-      <workItem from="1587485590019" duration="9000" />
-      <workItem from="1587988617914" duration="6749000" />
-      <workItem from="1588173005154" duration="10000" />
-      <workItem from="1588597020065" duration="6905000" />
-      <workItem from="1588686275813" duration="8590000" />
-      <workItem from="1588879607763" duration="474000" />
-      <workItem from="1589030478505" duration="4120000" />
-      <workItem from="1592566534264" duration="5627000" />
-      <workItem from="1592733481109" duration="1495000" />
-      <workItem from="1592817405138" duration="600000" />
-      <workItem from="1593194903858" duration="2295000" />
+      <updated>1596444465879</updated>
+      <workItem from="1596444467424" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1032" y="182" key="#ESLint" timestamp="1588698144034">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="182" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1588698144034" />
-    <state x="1190" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584717597146">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1190" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584717597146" />
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587990326963">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587990326963" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1589034423983">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589034423983" />
-    <state x="635" y="223" key="FileChooserDialogImpl" timestamp="1584304715163">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="635" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584304715163" />
-    <state x="922" y="166" key="SettingsEditor" timestamp="1583691603094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583691603094" />
-    <state x="1086" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588604714651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1086" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588604714651" />
-    <state x="1136" y="121" width="607" height="804" key="find.popup" timestamp="1588604720750">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1136" y="121" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588604720750" />
-    <state x="1096" y="244" key="run.anything.popup" timestamp="1588696790805">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1096" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588696790805" />
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587394934870">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587394934870" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
