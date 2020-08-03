@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39626cbf-67a5-43b2-8b1f-34c99cb02337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/state.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/samar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/it-kamasutra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/it-kamasutra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/Dialogs.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogItem/DialogItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/messageItem/MessageItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/Music.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/Music.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/News.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/News.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/Posts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/posts/postItem/PostItem.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/profileInfo/ProfileInfo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/profileInfo/ProfileInfo.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/Settings.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/dialogReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/profileReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596444465879</updated>
-      <workItem from="1596444467424" duration="1533000" />
+      <workItem from="1596444467424" duration="1776000" />
     </task>
     <servers />
   </component>
