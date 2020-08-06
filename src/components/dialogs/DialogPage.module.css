@@ -1,0 +1,14 @@
+.dialogs {
+
+}
+
+.dialogWrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.container {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

@@ -1,0 +1,18 @@
+.navbar {
+    grid-area: navbar;
+    background-color: royalblue;
+}
+
+.container {
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.link a.activeLink {
+    color: gold;
+}

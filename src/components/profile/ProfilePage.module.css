@@ -1,0 +1,19 @@
+.profile {
+
+}
+
+.container {
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.photo {
+    height: 15em;
+    padding-bottom: 0.5em;
+}
+
+.photo img {
+    max-height: 15em;
+    max-width: 15em;
+}

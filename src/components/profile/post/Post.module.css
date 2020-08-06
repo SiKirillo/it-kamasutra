@@ -1,0 +1,24 @@
+.post {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    margin-bottom: 0.5em;
+}
+
+.postIcon {
+    height: 2em;
+    width: 2em;
+}
+
+.postIcon img {
+    max-height: 2em;
+    border-radius: 50%;
+}
+
+.postText {
+    padding: 0 1em;
+}
+
+.postLikesCount {
+    color: red;
+}
