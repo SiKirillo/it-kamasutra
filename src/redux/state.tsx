@@ -1,4 +1,6 @@
 import {v1} from "uuid";
+import {PostType} from "../components/profile/ProfilePage";
+import {rerenderEntireTree} from "../render";
 
 type PostsType = {
     id: string,
@@ -35,22 +37,22 @@ type UserType = {
     authors: Array<AuthorType>
 }
 
-type RootStateType = {
+export type RootStateType = {
     profilePage: ProfilePageType,
     dialogPage: DialogPageType,
     users: UserType
 }
 
-let postId1 = v1();
-let postId2 = v1();
+const postId1 = v1();
+const postId2 = v1();
 
-let authorId1 = v1();
-let authorId2 = v1();
-let authorId3 = v1();
+const authorId1 = v1();
+const authorId2 = v1();
+const authorId3 = v1();
 
-let messageId1 = v1();
-let messageId2 = v1();
-let messageId3 = v1();
+const messageId1 = v1();
+const messageId2 = v1();
+const messageId3 = v1();
 
 let state: RootStateType = {
     profilePage: {
@@ -115,6 +117,45 @@ let state: RootStateType = {
             }
         ]
     }
+}
+
+export const addPost = (postText: string) => {
+    let newPost: PostType = {
+        id: v1(),
+        authorId: authorId3,
+        text: postText,
+        likesCount: 0
+    }
+    state.profilePage.posts.push(newPost);
+    rerenderEntireTree(state);
+}
+
+export const addDialog = (dialogName: string) => {
+    let newDialog: DialogType = {
+        id: v1(),
+        name: dialogName
+    };
+    state.dialogPage.dialogs.push(newDialog);
+    rerenderEntireTree(state);
+}
+
+export const addMessage = (messageText: string) => {
+    let newMessage: MessageType = {
+        id: v1(),
+        message: messageText
+    }
+    state.dialogPage.messages.push(newMessage);
+    rerenderEntireTree(state);
+}
+
+export const getAuthorPhoto = (authorId: string): string => {
+    let authorPhoto = "";
+    state.users.authors.map((a) => {
+        if (a.id === authorId) {
+            authorPhoto = a.photo;
+        }
+    })
+    return authorPhoto;
 }
 
 export default state;

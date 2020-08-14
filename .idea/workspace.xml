@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39626cbf-67a5-43b2-8b1f-34c99cb02337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/samar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/DialogPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/DialogPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/Dialog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/Dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/message/Message.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/message/Message.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forms/AddItemForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfilePage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/ProfilePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/post/Post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -88,7 +71,8 @@
       <workItem from="1596615359629" duration="10842000" />
       <workItem from="1596632439938" duration="4403000" />
       <workItem from="1596637479025" duration="1198000" />
-      <workItem from="1596705795665" duration="15237000" />
+      <workItem from="1596705795665" duration="16532000" />
+      <workItem from="1597397603769" duration="4183000" />
     </task>
     <servers />
   </component>

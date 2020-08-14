@@ -6,7 +6,7 @@ import profileStyle from "./ProfilePage.module.css";
 type PropsType = {
     profileState: Array<PostType>,
     authorState: Array<AuthorType>,
-    addPost: (postText: string, postLikesCount: number) => void,
+    addPost: (postText: string) => void,
     getAuthorPhoto: (authorId: string) => string
 }
 
@@ -25,7 +25,7 @@ export type AuthorType = {
 export function ProfilePage(props: PropsType) {
 
     const addPost = (postText: string) => {
-        props.addPost(postText, 0);
+        props.addPost(postText);
     };
 
     const getAuthorPhoto = (authorId: string) => {
