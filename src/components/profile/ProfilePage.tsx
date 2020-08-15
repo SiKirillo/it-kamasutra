@@ -2,12 +2,12 @@ import React from "react";
 import {Post} from "./post/Post";
 import {AddItemForm} from "../forms/AddItemForm";
 import profileStyle from "./ProfilePage.module.css";
+import {ActionTypes, addPostAC, getAuthorPhotoAC} from "../../redux/state";
 
 type PropsType = {
     profileState: Array<PostType>,
     authorState: Array<AuthorType>,
-    addPost: (postText: string) => void,
-    getAuthorPhoto: (authorId: string) => string
+    dispatch: (action: ActionTypes) => void | string
 }
 
 export type PostType = {
@@ -25,11 +25,12 @@ export type AuthorType = {
 export function ProfilePage(props: PropsType) {
 
     const addPost = (postText: string) => {
-        props.addPost(postText);
+        props.dispatch(addPostAC(postText));
     };
 
     const getAuthorPhoto = (authorId: string) => {
-        return props.getAuthorPhoto(authorId);
+        let postIcon = props.dispatch(getAuthorPhotoAC(authorId));
+        return postIcon !== undefined ? postIcon : "";
     };
 
     return <div className={profileStyle.profile}>

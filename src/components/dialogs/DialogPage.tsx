@@ -4,13 +4,13 @@ import {Message} from "./message/Message";
 import {AddItemForm} from "../forms/AddItemForm";
 import dialogStyle from "./DialogPage.module.css";
 import {AuthorType} from "../profile/ProfilePage";
+import {ActionTypes, addMessageAC} from "../../redux/state";
 
 type PropsType = {
     dialogState: Array<DialogType>,
     messageState: Array<MessageType>,
     authorState: Array<AuthorType>,
-    addDialog: (dialogName: string) => void,
-    addMessage: (messageText: string) => void
+    dispatch: (action: ActionTypes) => void
 }
 
 export type DialogType = {
@@ -26,7 +26,7 @@ export type MessageType = {
 export function DialogPage(props: PropsType) {
 
     const addMessage = (messageTitle: string) => {
-        props.addMessage(messageTitle);
+        props.dispatch(addMessageAC(messageTitle));
     }
 
     return <div className={dialogStyle.dialogs}>

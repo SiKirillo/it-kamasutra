@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import state from "./redux/state";
 import {rerenderEntireTree} from "./render";
+import store from "./redux/state";
 
-rerenderEntireTree(state);
+rerenderEntireTree(store);
 
 serviceWorker.unregister();

@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="39626cbf-67a5-43b2-8b1f-34c99cb02337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/render.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/ProfilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfilePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/render.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +60,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\GitHub\it-kamasutra\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,6 +76,23 @@
       <recent name="D:\GitHub\it-kamasutra\src\templates" />
       <recent name="D:\GitHub\it-kamasutra\public" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -73,11 +110,26 @@
       <workItem from="1596637479025" duration="1198000" />
       <workItem from="1596705795665" duration="16532000" />
       <workItem from="1597397603769" duration="4183000" />
+      <workItem from="1597404831763" duration="355000" />
+      <workItem from="1597405268885" duration="113000" />
+      <workItem from="1597490594620" duration="6227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -91,6 +143,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596637440589" />
+    <state width="1259" height="153" key="GridCell.Tab.0.bottom" timestamp="1597495107661">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597405381781" />
+    <state width="1259" height="153" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1597495107661" />
+    <state width="1259" height="153" key="GridCell.Tab.0.center" timestamp="1597495107658">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597405381779" />
+    <state width="1259" height="153" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1597495107658" />
+    <state width="1259" height="153" key="GridCell.Tab.0.left" timestamp="1597495107656">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597405381779" />
+    <state width="1259" height="153" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1597495107656" />
+    <state width="1259" height="153" key="GridCell.Tab.0.right" timestamp="1597495107659">
+      <screen x="0" y="23" width="1280" height="722" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597405381780" />
+    <state width="1259" height="153" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1597495107659" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1596709138068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
